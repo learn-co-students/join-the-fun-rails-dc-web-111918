@@ -1,4 +1,14 @@
 JoinTheFunRails::Application.routes.draw do
+  get 'taxi/name'
+
+  get 'taxi/name'
+
+  get 'ride/passenger_id'
+
+  get 'ride/taxi_id'
+
+  get 'passenger/name'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
